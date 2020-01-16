@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T01:00:48.864Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="gg8HdlIDYXg8vtKeXpTU" version="12.5.4" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-16T16:50:42.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="HWFmnAgByVF40_MQlI63" version="12.5.4" type="github" pages="2">
   <diagram name="Flujo" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
         <mxCell id="SvTrf5oOPu9Eeo3lYWJ9-14" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;fontSize=12;" vertex="1" connectable="0" parent="SvTrf5oOPu9Eeo3lYWJ9-13">
           <mxGeometry width="30" height="10" as="geometry"/>
         </mxCell>
-        <mxCell id="SvTrf5oOPu9Eeo3lYWJ9-20" value="Ubicaciones" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="dsDOiJkIsCiFrJ0K2MnO-1">
+        <mxCell id="SvTrf5oOPu9Eeo3lYWJ9-20" value="Geolocalizaciones" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;fontSize=14;" vertex="1" parent="dsDOiJkIsCiFrJ0K2MnO-1">
           <mxGeometry x="210" y="280" width="160" height="122" as="geometry"/>
         </mxCell>
         <mxCell id="SvTrf5oOPu9Eeo3lYWJ9-21" value="Rastro" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;fontSize=12;" vertex="1" parent="SvTrf5oOPu9Eeo3lYWJ9-20">
