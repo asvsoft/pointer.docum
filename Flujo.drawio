@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T00:47:39.515Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="AxMFvGeB5u8LqSxSq7nf" version="12.5.4" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2020-01-16T01:00:48.864Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="gg8HdlIDYXg8vtKeXpTU" version="12.5.4" type="github" pages="2">
   <diagram name="Flujo" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="2" value="Usuario" style="swimlane;whiteSpace=wrap;direction=east;" parent="1" vertex="1">
           <mxGeometry x="100" y="90" width="590" height="560" as="geometry"/>
         </mxCell>
-        <object label="Dejar Rastro&lt;br&gt;Inicio/Fin" Descripcion="Al pulsar empieza a dejar rastro, se va guardando el rastro en Base de datos&#xa;&#xa;Si ya está dejando rastro la opción es finalizar rastro, no dejar rastro&#xa;&#xa;Si está en finalizar, la opción es dejar rastro" id="QhEU6x6N_ftUbbuGNcNT-46">
+        <object label="Dejar Rastro&lt;br&gt;Inicio/Fin" Descripcion="Al pulsar empieza a dejar rastro, se va guardando el rastro en Base de datos&#xa;&#xa;Si ya está dejando rastro la opción es finalizar rastro, no dejar rastro&#xa;&#xa;Si está en finalizar, la opción es dejar rastro" BDatos="Dejar Rastro:&#xa;-- Inserta en Rastros&#xa;-- Registra regularmente en Ubicaciones&#xa;&#xa;Parar Rastro:&#xa;-- Update rastro final" id="QhEU6x6N_ftUbbuGNcNT-46">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
             <mxGeometry x="10" y="265" width="100" height="40" as="geometry"/>
           </mxCell>
@@ -77,12 +77,12 @@
         <mxCell id="QhEU6x6N_ftUbbuGNcNT-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2" source="QhEU6x6N_ftUbbuGNcNT-66" target="QhEU6x6N_ftUbbuGNcNT-67">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <object label="Elegir Rastro" Descripcion="Se elige el rastro que se desea ver, del actual al mas viejo" id="QhEU6x6N_ftUbbuGNcNT-66">
+        <object label="Elegir Rastro" Descripcion="Se elige el rastro que se desea ver, del actual al mas viejo" BDatos="De la tabla de rastros, elige los rastros del usuario, del mas nuevo (actual) hacia atrás" id="QhEU6x6N_ftUbbuGNcNT-66">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
             <mxGeometry x="235" y="340" width="100" height="40" as="geometry"/>
           </mxCell>
         </object>
-        <object label="Ver Rastro" Descripción="Se ve el rastro dejado" id="QhEU6x6N_ftUbbuGNcNT-67">
+        <object label="Ve Rastro" Descripción="Se ve el rastro dejado" id="QhEU6x6N_ftUbbuGNcNT-67">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
             <mxGeometry x="235" y="420" width="100" height="30" as="geometry"/>
           </mxCell>
@@ -90,12 +90,12 @@
         <mxCell id="QhEU6x6N_ftUbbuGNcNT-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2" source="QhEU6x6N_ftUbbuGNcNT-70" target="QhEU6x6N_ftUbbuGNcNT-72">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <object label="Elige Persona" Descripcion="Elige la persona a la que se desea rastrear" id="QhEU6x6N_ftUbbuGNcNT-70">
+        <object label="Elige Persona" Descripcion="Elige la persona a la que se desea rastrear" BDatos="De la tabla de rastros, elige los rastros activos (sin fin) de lo usuarios con rastreadores activos" id="QhEU6x6N_ftUbbuGNcNT-70">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
             <mxGeometry x="125" y="332.5" width="90" height="40" as="geometry"/>
           </mxCell>
         </object>
-        <object label="Ver Rastro" Descripcion="Se ve el mapa con la persona que se rastrea" id="QhEU6x6N_ftUbbuGNcNT-72">
+        <object label="Ve Rastro" Descripcion="Se ve el mapa con la persona que se rastrea" id="QhEU6x6N_ftUbbuGNcNT-72">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
             <mxGeometry x="120" y="420" width="100" height="30" as="geometry"/>
           </mxCell>
@@ -108,7 +108,7 @@
             <mxGeometry x="350" y="250" width="110" height="45" as="geometry"/>
           </mxCell>
         </object>
-        <object label="Lista/Añadir/Borrar" Descripcion="Se añaden las personas que pueden acceder a mis rastros" id="QhEU6x6N_ftUbbuGNcNT-75">
+        <object label="Lista/Añadir/Borrar" Descripcion="Se añaden las personas que pueden acceder a mis rastros" BDatos="Muestra la lista de mis rastreadores, con opción a borrar/añadir" id="QhEU6x6N_ftUbbuGNcNT-75">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="2">
             <mxGeometry x="350" y="330" width="110" height="45" as="geometry"/>
           </mxCell>
